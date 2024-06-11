@@ -11,7 +11,7 @@ def extract_text_from_pdf(file):
         text += page.get_text()
     return text
 
-st.title("PDF Uploader and Transcriber")
+st.title("HUBX Form Transcriber")
 
 uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
 
