@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Streamlit specific
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Logs and database
+logs/
+*.log
+*.sqlite3
+
+# System files
+Thumbs.db
+Desktop.ini
+
+# Other
+!.gitignore
